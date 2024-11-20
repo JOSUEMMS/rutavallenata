@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUTA VALLENATA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="min-h-screen">
+        <header>
+            <div align="center" class="container" >
+               <h1 >RUTA VALLENATA</h1>
+                <h1 >Descubre el Cesar y La Guajira</h1>
+                <p >Tierra de acordeones, vallenatos y paisajes mágicos</p>
+            </div>
+        </header>
+
+        <div class="hero">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-content" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Plaza_Valledupar.jpg/1200px-Plaza_Valledupar.jpg')">
+                            <div class="overlay">
+                                <h2>Valledupar</h2>
+                                <p>Capital Mundial del Vallenato, cuna de grandes acordeoneros y compositores.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content" style="background-image: url('https://ecolodgecolombia.com/wp-content/uploads/2020/10/Cabo-de-la-Vela.jpg')">
+                            <div class="overlay">
+                                <h2>Cabo de la Vela</h2>
+                                <p>Paraíso natural en La Guajira con playas vírgenes y atardeceres espectaculares.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content" style="background-image: url('https://siturcesar.com/multimedia/destinos/destino-2/portada.jpg')">
+                            <div class="overlay">
+                                <h2>Pueblo Bello</h2>
+                                <p>Pueblo mágico rodeado de montañas y productor del mejor café orgánico.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <main class="container">
+            <div class="region-tabs">
+                <button class="region-btn active" data-region="cesar">Cesar</button>
+                <button class="region-btn" data-region="guajira">La Guajira</button>
+            </div>
+
+            <div class="destinations" id="cesar-destinations">
+                <div class="card">
+                    <img src="https://valledupar-cesar.gov.co/PublishingImages/VALLEDUPAR.jpeg" alt="Valledupar">
+                    <div class="card-content">
+                        <h3>Valledupar</h3>
+                        <p>Capital del Cesar, sede del Festival de la Leyenda Vallenata y centro cultural de la región.</p>
+                        <button onclick="window.location.href='valledupar.html'"  type="button" class="btn btn-info">Ver Mas</button>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cesar, Colombia</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                
+                <div class="card">
+                    <img src="https://pelecanus.com.co/wp-content/uploads/2023/06/Cesar.jpg" alt="Aguachica">
+                    <div class="card-content">
+                        <h3>Aguachica</h3>
+                        <p>Segunda ciudad más importante del Cesar, centro económico y comercial del sur.</p>
+                        <button  onclick="window.location.href='aguachica.html'" type="button" class="btn btn-info">Ver Mas</button>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cesar, Colombia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://viajaporcolombia.com/images/pueblo-bello-1.jpg" alt="Pueblo Bello">
+                    <div class="card-content">
+                        <h3>Pueblo Bello</h3>
+                        <p>Municipio cafetero con rica cultura indígena y hermosos paisajes montañosos.</p>
+                        <button onclick="window.location.href='pueblo_bello.html'"  type="button" class="btn btn-info">Ver Mas</button>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cesar, Colombia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://siturcesar.com/multimedia/destinos/destino-3/imagen-0.jpg" alt="Manaure">
+                    <div class="card-content">
+                        <h3>Manaure Balcón del Cesar</h3>
+                        <p>Mirador natural con clima templado y hermosos paisajes de la Serranía del Perijá.</p>
+                        <button onclick="window.location.href='manaure.html'"   type="button" class="btn btn-info">Ver Mas</button>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cesar, Colombia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/8a/68/7a/caption.jpg?w=400&h=300&s=1" alt="San Alberto">
+                    <div class="card-content">
+                        <h3>San Alberto</h3>
+                        <p>Capital palmera de Colombia, rodeada de naturaleza y agricultura.</p>
+                        <button onclick="window.location.href='san_alberto.html'"  type="button" class="btn btn-info">Ver Mas</button>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cesar, Colombia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destinations hidden" id="guajira-destinations">
+                <div class="card">
+                    <img src="https://teyunatours.com/wp-content/uploads/2021/04/Wayuu-Cabo-de-la-vela-experience-travel-teyuna-Guajira-desert-natives-sea-Colombia-beach.jpg" alt="Cabo de la Vela">
+                    <div class="card-content">
+                        <h3>Cabo de la Vela</h3>
+                        <p>Destino turístico por excelencia, con playas vírgenes y deportes acuáticos.</p>
+                        <button type="button" class="btn btn-info">Ver Mas</button>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>La Guajira, Colombia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://turcol.co/wp-content/uploads/2022/04/cabo-de-la-vela-y-punta-gallinas-4.png" alt="Punta Gallinas">
+                    <div class="card-content">
+                        <h3>Punta Gallinas</h3>
+                        <p>Punto más septentrional de Sudamérica, con dunas y paisajes desérticos únicos.</p>
+                        <button type="button" class="btn btn-info">Ver Mas</button>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>La Guajira, Colombia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-xIZVqWsAdvBWgRjPUQlE154An3kyF35bCg&s" alt="Palomino">
+                    <div class="card-content">
+                        <h3>Palomino</h3>
+                        <p>Pueblo costero con playas paradisíacas y turismo ecológico.</p>
+                        <button type="button" class="btn btn-info">Ver Mas</button>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>La Guajira, Colombia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://regioncaribe.com.co/wp-content/uploads/2023/03/Noticias-de-Riohacha-La-Guajira.jpg" alt="Riohacha">
+                    <div class="card-content">
+                        <h3>Riohacha</h3>
+                        <p>Capital de La Guajira, con su hermoso malecón y cultura wayúu.</p>
+                        <button type="button" class="btn btn-info">Ver Mas</button>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>La Guajira, Colombia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Ubicación Privilegiada</h3>
+                    <p>Entre la Sierra Nevada, el Valle del Cesar y el Mar Caribe</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Festivales y Cultura</h3>
+                    <p>Tradiciones vivas y celebraciones todo el año</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-sun"></i>
+                    <h3>Clima Tropical</h3>
+                    <p>Sol y brisa caribeña durante todo el año</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>© 2024 Turismo del Cesar y La Guajira. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
