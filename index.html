@@ -8,8 +8,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .contactos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .contacto {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .contacto a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+
+
+
+
 </head>
 <body>
+
+
     <div class="min-h-screen">
         <header>
             <div align="center" class="container" >
@@ -57,7 +88,10 @@
             <div class="region-tabs">
                 <button class="region-btn active" data-region="cesar">Cesar</button>
                 <button class="region-btn" data-region="guajira">La Guajira</button>
-            </div>
+                 </div>
+
+
+
 
             <div class="destinations" id="cesar-destinations">
                 <div class="card">
@@ -196,12 +230,28 @@
                     <h3>Clima Tropical</h3>
                     <p>Sol y brisa caribeña durante todo el año</p>
                 </div>
+
+            </div><br>
+
+         <H1 class="colorl">Contactos:</H1>
+            <div class="contactos">
+                <div class="contacto">
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                </div>
+                <div class="contacto">
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                </div>
+                <div class="contacto">
+                    <a href="https://wa.me/" target="_blank">WhatsApp</a>
+                </div>
             </div>
+
         </main>
 
         <footer>
             <div class="container">
                 <p>© 2024 Turismo del Cesar y La Guajira. Todos los derechos reservados.</p>
+                <p>Contacto : Correo: josuemiguelmunozsierra@gmail.com  -  telefono: +57 3117190929</p>
             </div>
         </footer>
     </div>
